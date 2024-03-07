@@ -1,0 +1,126 @@
+[
+  {
+    "type": "text",
+    "placeholder": "Enter array",
+    "name": "arrayInput",
+    "onChange": "handleChange",
+    "onClick": "handleArrayLength",
+    "input": true,
+    "btn": "ArrayLength"
+  },
+  {
+    "onClick": "handleArrayToString",
+    "input": false,
+    "btn": "ArraytoString"
+  },
+  {
+    "type": "text",
+    "name": "joinItem",
+    "placeholder": "Enter join item",
+    "input": true,
+    "onClick": "handleArrayJoin",
+    "onChange": "handleChange",
+    "btn": "ArrayJoin"
+  },
+  {
+    "type": "text",
+    "name": "index",
+    "placeholder": "Enter at index",
+    "input": true,
+    "onClick": "handleArrayAt",
+    "onChange": "handleChange",
+    "btn": "ArrayAt"
+  },
+  {
+    "onClick": "handleArrayPop",
+    "input": false,
+    "btn": "ArrayPop"
+  },
+  {
+    "type": "text",
+    "name": "push",
+    "placeholder": "Enter push item",
+
+    "input": true,
+    "onClick": "handleArrayPush",
+    "onChange": "handleChange",
+    "btn": "Push to Array"
+  },
+  {
+    "onClick": "handleArrayShift",
+    "input": false,
+    "btn": "ArrayShift"
+  },
+  {
+    "type": "text",
+    "name": "unshift",
+    "placeholder": "Enter unShift item",
+    "input": true,
+    "onClick": "handleArrayUnShift",
+    "onChange": "handleChange",
+    "btn": "ArrayUnShift"
+  },
+  {
+    "type": "text",
+    "name": "deletes",
+    "placeholder": "Enter delete item",
+    "input": true,
+    "onClick": "handleArrayDelete",
+    "onChange": "handleChange",
+    "btn": "Arraydelete"
+  },
+  {
+    "type": "text",
+    "name": "concat",
+    "placeholder": "Enter concat item",
+    "input": true,
+    "onClick": "handleArrayconcat",
+    "onChange": "handleChange",
+    "btn": "Arrayconcat"
+  },
+  {
+    "type": "text",
+    "name": "copyWithin",
+    "placeholder": "Enter copyWithin item",
+    "onClick": "handleArrayCopyWithin",
+    "input": true,
+    "onChange": "handleChange",
+    "btn": "CopyWithin"
+  },
+  {
+    "type": "text",
+    "name": "flat",
+    "placeholder": "Enter flat item",
+    "onClick": "handleArrayflat",
+    "input": true,
+    "onChange": "handleChange",
+    "btn": "Arrayflat"
+  },
+  {
+    "type": "text",
+    "name": "splice",
+    "placeholder": "Enter splice item",
+    "onClick": "handleArraySplice",
+    "input": true,
+    "onChange": "handleChange",
+    "btn": "ArraySplice"
+  },
+  {
+    "type": "text",
+    "name": "spliced",
+    "placeholder": "Enter tospliced item",
+    "onClick": "handleArraytoSpliced",
+    "input": true,
+    "onChange": "handleChange",
+    "btn": "ArraytoSpliced"
+  },
+  {
+    "type": "text",
+    "name": "slice",
+    "placeholder": "Enter slice item",
+    "onClick": "handleArraySlice",
+    "input": true,
+    "onChange": "handleChange",
+    "btn": "ArraySlice"
+  }
+]
